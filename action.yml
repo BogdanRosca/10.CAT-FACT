@@ -1,0 +1,12 @@
+name: Get cat fact
+description: Get a random cat using https://catfact.ninja/fact
+inputs:
+  url: 
+    description: The URL to request fact from
+    requiered: true
+outputs:
+  fact:
+    description: A ramdom cat fact
+runs:
+  using: 'node20'
+  main: 'main.js'
